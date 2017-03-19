@@ -1,0 +1,113 @@
+#content-slider {
+   position:relative;
+   overflow:hidden;
+   width:720px;
+   height:200px;
+}
+ 
+#slideshow {
+   width: 1000%;
+   -webkit-animation: slideshow 10s infinite;  /* For Safari 5, Chrome*/
+   -moz-animation: slideshow 10s infinite;  /*For Firefox 5+ */
+   -ms-animation: slideshow 10s infinite; /*For IE 10 */
+   -o-animation: slideshow 10s infinite; /* For Opera 12+*/
+}
+ 
+#slideshow img{
+   float:left
+}
+ 
+@-webkit-keyframes slideshow {
+   0%, 10%, 100% { margin-left: 0; }
+   20%, 30% { margin-left: -720px;}
+   40%, 50% { margin-left: -1440px;}
+   60%, 70% { margin-left: -2160px;}
+   80% {margin-left: 0;};
+ }
+ 
+@-moz-keyframes slideshow {
+    0%, 10%, 100% { margin-left: 0; }
+   20%, 30% { margin-left: -720px;}
+   40%, 50% { margin-left: -1440px;}
+   60%, 70% { margin-left: -2160px;}
+   80% {margin-left: 0;};
+}
+ 
+@-ms-keyframes slideshow {
+    0%, 10%, 100% { margin-left: 0; }
+   20%, 30% { margin-left: -720px;}
+   40%, 50% { margin-left: -1440px;}
+   60%, 70% { margin-left: -2160px;}
+   80% {margin-left: 0;};
+}
+ 
+@-o-keyframes slideshow {
+    0%, 10%, 100% { margin-left: 0; }
+   20%, 30% { margin-left: -720px;}
+   40%, 50% { margin-left: -1440px;}
+   60%, 70% { margin-left: -2160px;}
+   80% {margin-left: 0;};
+}
+
+.awan3 {
+	background:url(../../images/awan6.png) no-repeat;
+	width:100%;
+	height:28px;
+    -webkit-animation: berawan 20s  alternate-reverse infinite;
+    -moz-animation: berawan 20s linear infinite;
+    -ms-animation: berawan 20s linear infinite;
+    -o-animation: berawan 20s linear infinite;
+    animation: berawan 20s alternate-reverse infinite;
+}
+
+.awan2 {
+	background:url(../../images/awan4.PNG) no-repeat;
+	width:100%;
+	height:50px;
+    -webkit-animation: berjalan 10s  alternate-reverse infinite;
+    -moz-animation: berjalan 10s linear infinite;
+    -ms-animation: berjalan 10s linear infinite;
+    -o-animation: berjalan 10s linear infinite;
+    animation: berjalan 10s alternate-reverse infinite;
+}
+
+.awan {
+	background:url(../../images/awan5.PNG) no-repeat;
+	width:100%;
+	height:50px;
+    -webkit-animation: bercahaya 10s  alternate-reverse infinite;
+    -moz-animation: bercahaya 10s linear infinite;
+    -ms-animation: bercahaya 10s linear infinite;
+    -o-animation: bercahaya 10s linear infinite;
+    animation: bercahaya 10s alternate-reverse infinite;
+}
+
+@-webkit-keyframes bercahaya{
+      from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  };
+}
+
+@-webkit-keyframes berjalan{
+      from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: 0 0;
+  };
+}
+
+@-webkit-keyframes berawan{
+      from {
+    background-position: 80% 0;
+  }
+
+  to {
+    background-position: 0 0;
+  };
+}

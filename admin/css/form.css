@@ -1,0 +1,108 @@
+#kolom1 {
+	width:100%;
+	height:250px;
+	border-radius:3px;
+	}
+#judulkolom {
+	width:100%;
+	height:40px;
+	background:linear-gradient(#fff, #eaeaea);
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#judulklm {
+	width:100%;
+	height:40px;
+	background:linear-gradient(#fff, #eaeaea);
+	border-bottom:1px solid #ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#kolom {
+	width:100%;
+	height:630px;
+	border-radius:3px;
+	}
+
+#kolom2 {
+	width:100%;
+	height:100%;
+	border-radius:3px;
+	border:1px solid #ccc;
+	}
+.daftar {
+	width:100px;
+	height:40px;
+	background:#2946AB;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-style:italic;
+	color:#FFF;
+	border:1px solid #039;
+	border-radius:3px;
+}
+
+.reset {
+	width:100px;
+	height:40px;
+	background:#F90;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-style:italic;
+	color:#FFF;
+	border:1px solid #F60;
+	border-radius:3px;
+}
+
+.daftar:hover {
+	-webkit-transform:translate(0px,2px);
+	-moz-transform:translate(0px,2px);
+	transform:translate(0px,2px);
+}
+
+.reset:hover {
+	-webkit-transform:translate(0px,2px);
+	-moz-transform:translate(0px,2px);
+	transform:translate(0px,2px);
+}
+
+.tabelmenu {
+	background:linear-gradient(#2946AB, #1D3178);
+	padding:10px;
+	color:#FFF;
+}
+
+#button3 {
+	width:80px;
+	height:25px;
+	background:#F55;
+	color:#FFF;
+	border:0px;
+	border-radius:3px;
+	font-family:Aller;
+	font-size:14px;
+}
+
+#button3:hover {
+	-webkit-transform:translate(0px,2px);
+	-moz-transform:translate(0px,2px);
+	transform:translate(0px,2px);
+}
+
+#paging {
+	text-decoration:none;
+	font-family:Aller;
+	color:#03C;
+}
+
+#paging a {
+	text-decoration:none;
+	font-family:Aller;
+	color:#F60;
+}
